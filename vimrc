@@ -160,6 +160,8 @@ set path=.,include/,../include/,/usr/include/c++/*,~/svn/robot/sources/src
         " Search for file named ".tags", from current directory up to ~/
 set tags=./.tags;~/
 map gt <C-]>
+    " Show menu if there is more than one instance of a tag
+map tt :tjump<CR>
 
 " Marks and jump lists
 "  * <C-o>/<C-i>: jump between files
